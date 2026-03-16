@@ -10,7 +10,7 @@ Example:
 Instead of asking, "Tell me about deforestation," ask, "Propose strategies to reduce deforestation."
 
 This directs the model to perform a specific task rather than giving a vague request.
-Avoid ambiguous verbs like understand, think, feel, try, or know, as they can confuse the model about what you want it to do.
+Avoid ambiguous verbs like **understand, think, feel, try, or know**, as they can confuse the model about what you want it to do.
 
 ## 2. Providing Detailed and Precise Instructions
 Be specific about the context, style, length, and audience for the output. **The more detailed your instructions, the better the model can tailor its response**.
