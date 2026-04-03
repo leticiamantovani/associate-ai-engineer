@@ -18,6 +18,19 @@
     Image → Computer Vision
     Audio  → Speech processing
 
+## Temperature in LLM
+
+- temperature is a paremeter that controls if the model will generate creative/random or more deterministic/conservative responses
+
+- it's a float number between 0 and 2 - this number depends of the model, there's model that accepts 0.0 and 1.0, and others that accepts 0.0 and 2.0
+
+- default temperature mostly common is 1.0 - it depends of the model, check the documentation
+
+0.0        → more factual answers, RAG and data extraction
+0.3 - 0.7  → equilibrium between consistency and variation
+0.7 - 1.0  → creative writing, brainstorming
+1.0+       → experiments, rarely production
+
 
 ## Types of LLM models
 
