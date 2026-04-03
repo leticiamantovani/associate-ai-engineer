@@ -8,6 +8,27 @@
 
 - example: "Hello, how are you?" -> ["Hello,", "how", "are", "you?"]
 
+## context window
+
+- context window is the maximum number of tokens that the model can process in a SINGLE request - THIS INCLUDES THE INPUT AND THE OUTPUT TOKENS
+
+- it depends of the model, check the documentation
+
+- if it achieves the maximum -> model will tell you that you have reached the maximum number of tokens
+
+- that's why RAG exists, cau will wont be able to send 200 pages of PDF once
+
+## max_tokens
+
+- max_tokens is the parameter that the model receives to controls the maximum number of tokens that model will RESPONSE
+
+- if it reaches the limit -> model will stop to generate text in the middle of the prashe
+
+- why do we use max_tokens?
+
+        - it can be used to control costs and avoid unecessary big responses
+        - it can be used to send more INPUT TOKENS TO THE MODEL AS THE CONTEXT WINDOW IS THE SUM OF THEM
+
 ## Technical details about tokens
 
 - tokens uses an algorith called Byte Pair Encoding (BPE)
