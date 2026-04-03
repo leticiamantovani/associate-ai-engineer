@@ -59,6 +59,14 @@
 - This is exactly **why RAG exists**: instead of sending the whole document, you send only the relevant pieces. More on this in Step 1.
 - Chat history also has this problem: long conversations eventually don't fit. You'll handle this in Phase 4.
 
+**Bonus — "Lost in the Middle" problem:** Research shows LLMs perform best when relevant information appears at the *beginning or end* of the context — not in the middle. If you stuff 50 chunks into the context, the ones in the middle may be effectively ignored. This is a real production concern in RAG systems.
+
+**Read:**
+- [OpenAI — Models overview (see context window column)](https://platform.openai.com/docs/models) ← compare context windows across GPT models
+- [Anthropic — Claude models overview](https://docs.anthropic.com/en/docs/about-claude/models) ← same, for Claude
+- [Lost in the Middle: How Language Models Use Long Contexts (paper, plain abstract)](https://arxiv.org/abs/2307.03172) ← explains why more context ≠ better answers
+- [Simon Willison — Things I learned about LLMs in 2023](https://simonwillison.net/2023/Dec/31/ai-in-2023/) ← scroll to the context window section, very readable
+
 ---
 
 ### Concept 0.4 · What are Chunks and Text Splitting?
