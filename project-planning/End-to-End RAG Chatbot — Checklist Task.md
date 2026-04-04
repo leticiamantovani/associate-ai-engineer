@@ -10,7 +10,7 @@
 
 - [x] **Concept 0.1** — What is an LLM?
 - [x] **Concept 0.2** — What are tokens?
-- [ ] **Concept 0.3** — What is a context window?
+- [x] **Concept 0.3** — What is a context window?
 - [ ] **Concept 0.4** — What are chunks and text splitting?
 - [ ] **Concept 0.5** — What are embeddings?
 - [ ] **Concept 0.6** — What is a vector store / vector database?
