@@ -12,7 +12,7 @@
 - [x] **Concept 0.2** — What are tokens?
 - [x] **Concept 0.3** — What is a context window?
 - [x] **Concept 0.4** — What are chunks and text splitting?
-- [ ] **Concept 0.5** — What are embeddings?
+- [x] **Concept 0.5** — What are embeddings?
 - [ ] **Concept 0.6** — What is a vector store / vector database?
 - [ ] **Concept 0.7** — What is a prompt template?
 
