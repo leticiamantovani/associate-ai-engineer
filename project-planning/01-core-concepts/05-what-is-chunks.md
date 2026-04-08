@@ -4,6 +4,8 @@
 
 - this piece of text has tokens
 
+- IT IS A PIECE OF STRINGS BEFORE IT BECAMES INTO NUMBERS (EMBEDDINGS)
+
 # text splitting
 
 - we use a text splitter to split the text and create the chunks
