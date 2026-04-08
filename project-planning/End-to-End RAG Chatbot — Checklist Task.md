@@ -14,7 +14,7 @@
 - [x] **Concept 0.4** — What are chunks and text splitting?
 - [x] **Concept 0.5** — What are embeddings?
 - [x] **Concept 0.6** — What is a vector store / vector database?
-- [ ] **Concept 0.7** — What is a prompt template?
+- [x] **Concept 0.7** — What is a prompt template?
 
 ---
 
