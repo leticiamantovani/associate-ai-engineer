@@ -23,8 +23,8 @@
 > Goal: Get a document Q&A working in a terminal script — no API, no frontend yet.
 
 ### Step 1 · What is RAG?
-- [ ] Read: [LangChain — RAG Conceptual Guide](https://python.langchain.com/docs/concepts/rag/)
-- [ ] Read: [OpenAI Cookbook — Question Answering with RAG](https://cookbook.openai.com/examples/question_answering_using_embeddings)
+- [x] Read: [LangChain — RAG Conceptual Guide](https://python.langchain.com/docs/concepts/rag/)
+- [x] Read: [OpenAI Cookbook — Question Answering with RAG](https://cookbook.openai.com/examples/question_answering_using_embeddings)
 - [ ] Build: Python script that loads a PDF, chunks it, embeds with OpenAI, stores in FAISS/Chroma
 - [ ] Build: Script takes a terminal question and returns an answer
 
