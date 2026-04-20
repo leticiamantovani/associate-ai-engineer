@@ -25,8 +25,8 @@
 ### Step 1 · What is RAG?
 - [x] Read: [LangChain — RAG Conceptual Guide](https://python.langchain.com/docs/concepts/rag/)
 - [x] Read: [OpenAI Cookbook — Question Answering with RAG](https://cookbook.openai.com/examples/question_answering_using_embeddings)
-- [ ] Build: Python script that loads a PDF, chunks it, embeds with OpenAI, stores in FAISS/Chroma
-- [ ] Build: Script takes a terminal question and returns an answer
+- [x] Build: Python script that loads a PDF, chunks it, embeds with OpenAI, stores in FAISS/Chroma
+- [x] Build: Script takes a terminal question and returns an answer
 
 ### Step 2 · Move embeddings to PostgreSQL with pgvector
 - [ ] Read: [pgvector README](https://github.com/pgvector/pgvector)
