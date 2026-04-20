@@ -31,3 +31,32 @@
 5. chunkings strategy
 
 - deoending of the chunk strategy, it affects the quality of the retrieval
+
+## example of pgvector
+
+```sql
+CREATE EXTENSION IF NOT EXISTS vector;
+
+CREATE TABLE IF NOT EXISTS langchain_pg_collection (
+    uuid UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    name VARCHAR NOT NULL,
+    cmetadata JSON
+);
+
+CREATE TABLE IF NOT EXISTS langchain_pg_embedding (
+    id VARCHAR PRIMARY KEY,
+    collection_id UUID REFERENCES langchain_pg_collection(uuid) ON DELETE CASCADE,
+    embedding vector(768),
+    document TEXT,
+    cmetadata JSON
+);
+
+CREATE INDEX IF NOT EXISTS idx_embedding
+    ON langchain_pg_embedding USING ivfflat (embedding vector_cosine_ops);
+
+```
+
+- we will store EVERY PDF CHUNKS in langchain_pg_embedding table
+- BUT we will know that it is a diff PDF by the collection_id
+- DOCUMENT is the text of the chunk
+- cmetadata is the metadata of the chunk
