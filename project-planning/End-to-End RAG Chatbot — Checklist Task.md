@@ -40,15 +40,15 @@
 > Goal: Expose your RAG logic as HTTP endpoints.
 
 ### Step 3 · FastAPI app with `/upload` endpoint
-- [ ] Read: [FastAPI — Getting Started](https://fastapi.tiangolo.com/tutorial/)
+- [x] Read: [FastAPI — Getting Started](https://fastapi.tiangolo.com/tutorial/)
 - [ ] Read: [LangChain — Document Loaders (PDF)](https://python.langchain.com/docs/how_to/document_loader_pdf/)
-- [ ] Build: `POST /upload` — accepts PDF, chunks it, saves embeddings to pgvector
+- [x] Build: `POST /upload` — accepts PDF, chunks it, saves embeddings to pgvector
 
 ### Step 4 · Add the `/chat` endpoint
 - [ ] Read: [LangChain — LCEL Introduction](https://python.langchain.com/docs/concepts/lcel/)
 - [ ] Read: [LangChain — RAG Chains](https://python.langchain.com/docs/tutorials/rag/)
 - [ ] Read: [OpenAI API — Chat Completions](https://platform.openai.com/docs/guides/text-generation)
-- [ ] Build: `POST /chat` — retrieves relevant chunks, sends to LLM, returns answer
+- [x] Build: `POST /chat` — retrieves relevant chunks, sends to LLM, returns answer
 
 ---
 
