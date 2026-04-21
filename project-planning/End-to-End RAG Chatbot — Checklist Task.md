@@ -29,9 +29,9 @@
 - [x] Build: Script takes a terminal question and returns an answer
 
 ### Step 2 · Move embeddings to PostgreSQL with pgvector
-- [ ] Read: [pgvector README](https://github.com/pgvector/pgvector)
-- [ ] Read: [LangChain — PGVector integration](https://python.langchain.com/docs/integrations/vectorstores/pgvector/)
-- [ ] Build: Replace in-memory vector store with PostgreSQL + pgvector
+- [x] Read: [pgvector README](https://github.com/pgvector/pgvector)
+- [x] Read: [LangChain — PGVector integration](https://python.langchain.com/docs/integrations/vectorstores/pgvector/)
+- [x] Build: Replace in-memory vector store with PostgreSQL + pgvector
 
 ---
 
