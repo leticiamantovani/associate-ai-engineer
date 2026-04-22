@@ -41,13 +41,13 @@
 
 ### Step 3 · FastAPI app with `/upload` endpoint
 - [x] Read: [FastAPI — Getting Started](https://fastapi.tiangolo.com/tutorial/)
-- [ ] Read: [LangChain — Document Loaders (PDF)](https://python.langchain.com/docs/how_to/document_loader_pdf/)
+- [x] Read: [LangChain — Document Loaders (PDF)](https://python.langchain.com/docs/how_to/document_loader_pdf/)
 - [x] Build: `POST /upload` — accepts PDF, chunks it, saves embeddings to pgvector
 
 ### Step 4 · Add the `/chat` endpoint
-- [ ] Read: [LangChain — LCEL Introduction](https://python.langchain.com/docs/concepts/lcel/)
-- [ ] Read: [LangChain — RAG Chains](https://python.langchain.com/docs/tutorials/rag/)
-- [ ] Read: [OpenAI API — Chat Completions](https://platform.openai.com/docs/guides/text-generation)
+- [x] Read: [LangChain — LCEL Introduction](https://python.langchain.com/docs/concepts/lcel/)
+- [x] Read: [LangChain — RAG Chains](https://python.langchain.com/docs/tutorials/rag/)
+- [x] Read: [OpenAI API — Chat Completions](https://platform.openai.com/docs/guides/text-generation)
 - [x] Build: `POST /chat` — retrieves relevant chunks, sends to LLM, returns answer
 
 ---
@@ -57,10 +57,10 @@
 > Goal: Return responses token by token like ChatGPT.
 
 ### Step 5 · Stream the LLM response
-- [ ] Read: [FastAPI — StreamingResponse](https://fastapi.tiangolo.com/advanced/custom-response/#streamingresponse)
-- [ ] Read: [LangChain — Streaming](https://python.langchain.com/docs/how_to/streaming/)
-- [ ] Build: Modify `/chat` to stream tokens using `StreamingResponse`
-- [ ] Test: Verify streaming with `curl` or a simple HTML page with `fetch` + `ReadableStream`
+- [x] Read: [FastAPI — StreamingResponse](https://fastapi.tiangolo.com/advanced/custom-response/#streamingresponse)
+- [x] Read: [LangChain — Streaming](https://python.langchain.com/docs/how_to/streaming/)
+- [x] Build: Modify `/chat` to stream tokens using `StreamingResponse`
+- [x] Test: Verify streaming with `curl` or a simple HTML page with `fetch` + `ReadableStream`
 
 ---
 
