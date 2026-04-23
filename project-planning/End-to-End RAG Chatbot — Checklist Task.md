@@ -41,7 +41,7 @@
 
 ### Step 3 · FastAPI app with `/upload` endpoint
 - [x] Read: [FastAPI — Getting Started](https://fastapi.tiangolo.com/tutorial/)
-- [x] Read: [LangChain — Document Loaders (PDF)](https://python.langchain.com/docs/how_to/document_loader_pdf/)
+- [x] Read: [LangChain — Document Loaders (PDF)](https://python.langchain.com/docs/how_t,=p3 pdocument_loader_pdf/)
 - [x] Build: `POST /upload` — accepts PDF, chunks it, saves embeddings to pgvector
 
 ### Step 4 · Add the `/chat` endpoint
@@ -69,9 +69,9 @@
 > Goal: Save conversations to Postgres, reload old chats, give the LLM memory.
 
 ### Step 6 · Save chat history to PostgreSQL
-- [ ] Read: [LangChain — Chat History](https://python.langchain.com/docs/concepts/chat_history/)
-- [ ] Read: [LangChain — How to add message history](https://python.langchain.com/docs/how_to/message_history/)
-- [ ] Build: `conversations` table and `messages` table in Postgres
+- [x] Read: [LangChain — Chat History](https://python.langchain.com/docs/concepts/chat_history/)
+- [x] Read: [LangChain — How to add message history](https://python.langchain.com/docs/how_to/message_history/)
+- [x] Build: `conversations` table and `messages` table in Postgres
 - [ ] Build: `POST /conversations` and `GET /conversations/{id}/messages` endpoints
 - [ ] Build: `/chat` now saves both user message and AI response to DB
 
