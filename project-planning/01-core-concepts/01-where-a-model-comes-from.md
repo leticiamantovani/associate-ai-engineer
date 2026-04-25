@@ -176,6 +176,20 @@ Input → text that you send to the model - it changes in every prompt you send
 Hyperparameter → decision of the architecture you take BEFORE the training - embedding_dim, num_embeddings, number of blocks, etc - it is not learned - it is defined by you
 
 
+## Differences between models and agents
+
+- model is the LLM itself that we are gonna send the information to, and it will generate an answer for it, it has no abilities to take actions on its own
+
+- agent is the whole system, that will have tools (apis, functions, databases, etc) and it will decide which of them it is gonna use to answer the question, it observes the results and loops until the task is done
+
+reason -> act -> observe -> repeat
+
+## how the agent decides which tool to use?
+
+- the model itself decides, it doenst need to have a mcp (protocol to use tools), there are models with tools that doesnt have a mcp, we will also have a model to decide which tool makes sense to be called and get the information back to the prompt
+
+MCP model context protocol is one standard way to expose these tools to the model, but not the only one, we will see them later
+
 
 ## Interesting Topics
 
