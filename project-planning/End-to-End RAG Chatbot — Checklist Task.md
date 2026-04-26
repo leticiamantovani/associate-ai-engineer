@@ -72,12 +72,12 @@
 - [x] Read: [LangChain — Chat History](https://python.langchain.com/docs/concepts/chat_history/)
 - [x] Read: [LangChain — How to add message history](https://python.langchain.com/docs/how_to/message_history/)
 - [x] Build: `conversations` table and `messages` table in Postgres
-- [ ] Build: `POST /conversations` and `GET /conversations/{id}/messages` endpoints
-- [ ] Build: `/chat` now saves both user message and AI response to DB
+- [x] Build: `POST /conversations` and `GET /conversations/{id}/messages` endpoints
+- [x] Build: `/chat` now saves both user message and AI response to DB
 
 ### Step 7 · Reconstruct conversation context
 - [ ] Read: [LangChain — RunnableWithMessageHistory](https://python.langchain.com/docs/how_to/message_history/)
-- [ ] Build: Load previous messages from DB and include in every new LLM call
+- [x] Build: Load previous messages from DB and include in every new LLM call
 
 ---
 
