@@ -86,9 +86,9 @@
 > Goal: Replace manual chain with a proper agent graph.
 
 ### Step 8 · LangGraph fundamentals
-- [ ] Read: [LangGraph — Quickstart](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
-- [ ] Read: [LangGraph — Concepts: Nodes, Edges, State](https://langchain-ai.github.io/langgraph/concepts/)
-- [ ] Build: Rewrite RAG logic as a LangGraph graph with nodes: `retrieve_docs → format_context → generate_answer → save_message`
+- [x] Read: [LangGraph — Quickstart](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
+- [x] Read: [LangGraph — Concepts: Nodes, Edges, State](https://langchain-ai.github.io/langgraph/concepts/)
+- [x] Build: Rewrite RAG logic as a LangGraph graph with nodes: `retrieve_docs → format_context → generate_answer → save_message`
 
 ### Step 9 · LangGraph checkpointing
 - [ ] Read: [LangGraph — Persistence / Checkpointing](https://langchain-ai.github.io/langgraph/concepts/persistence/)
