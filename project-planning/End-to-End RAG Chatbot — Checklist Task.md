@@ -102,15 +102,15 @@
 > Goal: Chat interface with streaming display and drag & drop PDF upload.
 
 ### Step 10 · Chat UI with streaming
-- [ ] Read: [MDN — Fetch API & ReadableStream](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams)
-- [ ] Read: [Vercel AI SDK](https://sdk.vercel.ai/docs)
-- [ ] Build: React chat page with input + message list
-- [ ] Build: Tokens stream in progressively as the LLM responds
+- [x] Read: [MDN — Fetch API & ReadableStream](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams)
+- [x] Read: [Vercel AI SDK](https://sdk.vercel.ai/docs)
+- [x] Build: React chat page with input + message list
+- [x] Build: Tokens stream in progressively as the LLM responds
 
 ### Step 11 · Drag & drop PDF upload
-- [ ] Read: [MDN — HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
-- [ ] Read: [react-dropzone docs](https://react-dropzone.js.org/)
-- [ ] Build: Drag PDF into chat area → `POST /upload` → confirmation message in chat
+- [x] Read: [MDN — HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+- [x] Read: [react-dropzone docs](https://react-dropzone.js.org/)
+- [x] Build: Drag PDF into chat area → `POST /upload` → confirmation message in chat
 
 ---
 
