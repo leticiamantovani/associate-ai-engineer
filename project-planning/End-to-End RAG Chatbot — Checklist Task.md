@@ -91,9 +91,9 @@
 - [x] Build: Rewrite RAG logic as a LangGraph graph with nodes: `retrieve_docs → format_context → generate_answer → save_message`
 
 ### Step 9 · LangGraph checkpointing
-- [ ] Read: [LangGraph — Persistence / Checkpointing](https://langchain-ai.github.io/langgraph/concepts/persistence/)
-- [ ] Read: [LangGraph — How to add persistence](https://langchain-ai.github.io/langgraph/how-tos/persistence/)
-- [ ] Build: Add Postgres checkpointer — graph state saved automatically at every node
+- [x] Read: [LangGraph — Persistence / Checkpointing](https://langchain-ai.github.io/langgraph/concepts/persistence/)
+- [x] Read: [LangGraph — How to add persistence](https://langchain-ai.github.io/langgraph/how-tos/persistence/)
+- [x] Build: Add Postgres checkpointer — graph state saved automatically at every node
 
 ---
 
@@ -119,8 +119,8 @@
 > Goal: Portfolio-ready project.
 
 ### Step 12 · Auth + multi-user sessions
-- [ ] Read: [FastAPI — Security / OAuth2 with JWT](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
-- [ ] Build: JWT auth — each user has isolated documents and chat history
+- [x] Read: [FastAPI — Security / OAuth2 with JWT](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
+- [x] Build: JWT auth — each user has isolated documents and chat history
 
 ### Step 13 · Prompt versioning
 - [ ] Read: [OpenAI — Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
