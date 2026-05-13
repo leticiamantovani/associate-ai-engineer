@@ -50,3 +50,5 @@ tools that the agent can decide if it is necessary to call
 ## why is different from langchain
 
 - it is a chain but it allows LOOPS flow, so it can return to a tool/nodes (you set with edges) if it needs again
+
+## graph stateful or stateless
